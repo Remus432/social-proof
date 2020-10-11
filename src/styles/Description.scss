@@ -1,0 +1,18 @@
+.description {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+
+  &__headline {
+    color: $dark-magenta;
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+
+  &__text {
+    color: $dark-grayish-magenta;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+}

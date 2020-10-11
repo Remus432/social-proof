@@ -1,0 +1,21 @@
+@mixin bgPatternTop($url) {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url($url);
+  background-repeat: no-repeat;
+}
+
+@mixin bgPatternBottom($url) {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: -10px;
+  width: 100%;
+  height: 100%;
+  background-image: url($url);
+  background-repeat: no-repeat;
+}

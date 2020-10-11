@@ -1,0 +1,37 @@
+@import "./styles/variables";
+@import "./styles/medias";
+@import "./styles/Header";
+@import "./styles/Description";
+@import "./styles/Reviews";
+@import "./styles/Cards.scss";
+@import "./styles/mixins";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: 'Spartan', sans-serif;
+}
+
+body {
+  font-size: 1.5rem;
+  overflow: hidden; 
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 10rem;
+  position: relative;
+  &::before {
+    @include bgPatternTop("../images/bg-pattern-top-desktop.svg");
+  }
+
+  &::after {
+    @include bgPatternBottom("../images/bg-pattern-bottom-desktop.svg");
+  }
+}

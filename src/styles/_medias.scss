@@ -1,0 +1,61 @@
+@media (max-width: 1000px) {
+  body {
+    overflow: visible!important;
+  }
+
+  .header__container {
+    flex-direction: column;
+  }
+
+  .description {
+    width: 100%!important;
+    text-align: center;
+    align-items: center;
+
+    &__headline {
+      font-size: 3.5rem!important;
+    }
+
+    &__text {
+      font-size: 2rem;
+      flex: 2;
+    }
+  }
+
+  .reviews {
+    width: 100vw;
+    margin-top: 4rem!important;
+
+    &__card {
+      flex-direction: column;
+
+      &.card-1 {
+        margin: 0!important;
+      }
+  
+      &.card-2 {
+        margin-left: 0rem!important;
+      }
+  
+      &.card-3 {
+        margin-left: 0!important;
+      }
+
+      &-source {
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  .cards__container {
+    flex-direction: column;
+  }
+
+  .container {
+    overflow: hidden;
+  }
+
+  .container::after {
+    bottom: -1200px!important;
+  }
+}

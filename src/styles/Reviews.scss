@@ -1,0 +1,36 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0rem;
+  
+
+  &__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    background-color: $light-grayish-magenta;
+
+    &.card-1 {
+      margin-left: -6rem;
+    }
+
+    &.card-2 {
+      margin: 1.5rem;
+      margin-left: 1rem;
+    }
+
+    &.card-3 {
+      margin-left: 6rem;
+    }
+
+    &-source {
+      font-weight: bold;
+      color: $dark-magenta;
+    }
+  }
+
+}

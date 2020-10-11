@@ -1,0 +1,56 @@
+.cards__container {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  background-color: $dark-magenta;
+  color: $white;  
+  border-radius: 10px;
+  margin: 1.5rem;
+  padding: 4rem 3rem;
+  width: 100%;
+
+
+  &.user-2 {
+    transform: translateY(10px);
+  }
+
+  &.user-3 {
+    transform: translateY(20px);
+  }
+
+  &__user {
+    &-info {
+      display: flex;
+      align-items: center;
+      font-size: 1.2rem;
+      margin-bottom: 3rem;
+    }
+
+    &-pic {
+      border-radius: 50%;
+      width: 35px;
+      margin-right: 1.5rem;
+    }
+
+    &-name {
+      font-weight: bold;
+    }
+
+    &-tag {
+      color: $soft-pink;
+      margin-top: .5rem;
+      font-weight: 300;
+    }
+
+    &-review {
+      font-size: 1.2rem;
+      line-height: 2rem;
+    }
+  }
+}

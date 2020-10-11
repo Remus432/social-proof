@@ -1,6 +1,6 @@
 # Social Proof
 
-#### Level: Newbie  ![alt][logo]
+#### Level: Newbie  ![][logo]
 
 ## Technologies Required
 

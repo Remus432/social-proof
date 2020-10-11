@@ -1,9 +1,9 @@
-# Social Proof
+# Social Proof 💬
 
 #### Level: Newbie  
 ![image info](./level.png)
 
-## Technologies Required
+## Technologies Required 💻
 
 1. HTML
 2. CSS (responsive design)

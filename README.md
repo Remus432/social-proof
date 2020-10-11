@@ -1,6 +1,6 @@
 # Social Proof
 
-#### Level: Newbie
+#### Level: Newbie  [alt text][logo]
 
 ## Technologies Required
 
@@ -41,3 +41,4 @@
 
 This is the first project in a long series of front-end projects that are part of the [FrontendMentor](https://www.frontendmentor.io/challenges) challenges.
 
+[logo]: "./level.png"

@@ -8,7 +8,7 @@
 1. HTML
 2. CSS (responsive design)
 
-## SASS Variables
+## SASS Variables 🖌
 
 #### Primary 
 
@@ -38,6 +38,6 @@
 
 ---
 
-## What is it about?
+## What is it about? 🤔
 
 This is the first project in a long series of front-end projects that are part of the [FrontendMentor](https://www.frontendmentor.io/challenges) challenges.

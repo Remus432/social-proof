@@ -7,6 +7,7 @@
 
 1. HTML
 2. CSS (responsive design)
+3. JS (React.js)
 
 ## SASS Variables 🖌
 
